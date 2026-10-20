@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>OfferGuard</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div class="logo">🛡️ OfferGuard</div><div class="tag">Verify before you pay.</div></header>
+  <div class="statusrow"><span id="pill" class="pill wait">Connecting…</span><button id="tftest" class="ghost small">Test TinyFish</button></div>
+  <label for="text">Offer message or email text</label>
+  <textarea id="text" rows="6" placeholder="Paste the offer here. In the extension you can also select it on the page and click “Use page selection”."></textarea>
+  <input id="company" placeholder="Company name (optional, improves checks)">
+  <div class="row">
+    <button id="verify" class="primary">Verify offer</button>
+    <button id="grab" class="ghost">Use page selection</button>
+  </div>
+  <div id="status"></div>
+  <div id="result"></div>
+  <details id="settings" class="settings"><summary>Settings</summary>
+    <label for="api">Backend URL</label>
+    <input id="api"><button id="saveApi" class="ghost">Save</button>
+  </details>
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

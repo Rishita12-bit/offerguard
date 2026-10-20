@@ -1,0 +1,7 @@
+{
+  "name": "offerguard-backend",
+  "version": "0.1.0",
+  "description": "OfferGuard verification backend (TinyFish Search + Fetch)",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

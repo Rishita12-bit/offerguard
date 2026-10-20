@@ -1,0 +1,4 @@
+[
+  { "ids": ["upi:hr.techvista@okaxis", "domain:techvista-careers.in"], "note": "DEMO SEED DATA", "ts": "2026-10-01T00:00:00.000Z" },
+  { "ids": ["upi:hr.techvista@okaxis", "phone:9876543210"], "note": "DEMO SEED DATA", "ts": "2026-10-05T00:00:00.000Z" }
+]

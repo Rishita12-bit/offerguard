@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { width: 400px; margin: 0; padding: 14px; font: 13px/1.4 system-ui, sans-serif; color: #1b2430; background: #f1f5f9; }
+header { margin-bottom: 10px; }
+.logo { font-size: 18px; font-weight: 700; color: #0b2545; }
+.tag { color: #13a89e; font-weight: 600; }
+label { display: block; margin: 8px 0 4px; font-weight: 600; }
+textarea, input { width: 100%; padding: 8px; border: 1px solid #cfd8e3; border-radius: 6px; font: inherit; background: #fff; }
+input { margin-top: 6px; }
+.row { display: flex; gap: 8px; margin-top: 8px; }
+button { padding: 8px 12px; border-radius: 6px; border: 0; cursor: pointer; font: inherit; font-weight: 600; }
+.primary { background: #0b2545; color: #fff; flex: 1; }
+.ghost { background: #fff; color: #0b2545; border: 1px solid #cfd8e3; }
+button:disabled { opacity: .6; cursor: wait; }
+#status { margin-top: 8px; color: #6c7a89; }
+.verdict { margin-top: 12px; padding: 12px; border-radius: 8px; color: #fff; }
+.verdict.high { background: #e4572e; } .verdict.verify { background: #c98512; } .verdict.ok { background: #2e9e5b; }
+.verdict .v { font-size: 16px; font-weight: 700; }
+.verdict .n { font-size: 11px; opacity: .9; margin-top: 4px; }
+.ev { margin-top: 8px; padding: 8px 10px; background: #fff; border-radius: 6px; }
+.ev .t { font-weight: 600; }
+.ev .d { color: #4a5663; margin-top: 2px; }
+.ev a { display: block; color: #3a7ca5; margin-top: 2px; word-break: break-all; }
+.badge { display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 8px; background: #13a89e; color: #fff; font-size: 10px; vertical-align: middle; }
+h3 { margin: 14px 0 4px; color: #0b2545; }
+details { margin-top: 8px; background: #fff; border-radius: 6px; padding: 8px 10px; }
+summary { cursor: pointer; font-weight: 600; }
+pre { white-space: pre-wrap; margin: 8px 0; font: 12px/1.4 system-ui, sans-serif; }
+.settings button { margin-top: 6px; }
+body.web { margin: 24px auto; }
+body.web #grab { display: none; }
+.statusrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+.pill { padding: 3px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; color: #fff; }
+.pill.wait { background: #6c7a89; } .pill.good { background: #2e9e5b; } .pill.warn { background: #c98512; } .pill.bad { background: #e4572e; }
+.small { padding: 4px 8px; font-size: 11px; }
+.trace { font-size: 12px; color: #4a5663; padding: 2px 0; }

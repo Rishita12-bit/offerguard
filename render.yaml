@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: offerguard
+    runtime: node
+    plan: free
+    buildCommand: echo "nothing to build"
+    startCommand: node backend/server.js
+    healthCheckPath: /health
+    envVars:
+      - key: TINYFISH_API_KEY
+        sync: false
